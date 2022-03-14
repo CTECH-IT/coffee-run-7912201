@@ -1,1 +1,8 @@
-/* Put your CSS here */
+.card {
+    background-color: #ddd !important;
+    box-shadow: #777 1px 1px 3px !important;
+}
+
+.form-control {
+    box-shadow: inset #777 1px 1px 3px !important;
+}
