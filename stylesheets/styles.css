@@ -1,5 +1,5 @@
 .card {
-    background-color: #ddd !important;
+    background-image: linear-gradient(#dfdfdf, #a5a5a5) !important;
     box-shadow: #777 1px 1px 3px !important;
 }
 
