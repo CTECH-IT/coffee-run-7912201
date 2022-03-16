@@ -1,8 +1,13 @@
 .card {
-    background-image: linear-gradient(#dfdfdf, #a5a5a5) !important;
+    background-image: linear-gradient(#efefef, #c4c4c4) !important;
     box-shadow: #777 1px 1px 3px !important;
 }
 
 .form-control {
     box-shadow: inset #777 1px 1px 3px !important;
+}
+
+.pendingspace {
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
