@@ -13,9 +13,15 @@
     let myTruck = new Truck('12345', new DataStore());
     let checklist = new Checklist(CHECKLIST_SELECTOR);
 
+
+
     window.myTruck = myTruck;
 
     let formHandler = new FormHandler(FORM_SELECTOR);
+
+    //when a checkbox is clicked, call deliverOrder on myTruck
+    checklist.addClickHandler(myTruck.deliverOrder.bind(myTruck))
+
 
     formHandler.addSubmitHandler(function(data) {
         myTruck.createOrder.call(myTruck, data);

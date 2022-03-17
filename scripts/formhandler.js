@@ -13,6 +13,7 @@
     }
 
     //make the submit button work AND make createOrder a parameter
+    
     FormHandler.prototype.addSubmitHandler = function(func) {
         console.log("Setting submit handler for the form...");
 
