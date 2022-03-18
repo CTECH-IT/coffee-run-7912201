@@ -1,3 +1,4 @@
+
 .card {
     background-image: linear-gradient(#efefef, #ccc1c1) !important;
     box-shadow: #777 1px 1px 3px !important;
@@ -23,8 +24,11 @@ body {
 
 .btn {
     box-shadow: #222 1px 1px 3px,  -1px -1px 2px white !important;
+    
 }
 
+
+/*for the pending orders*/
 .mocha {
     background-image: linear-gradient(#876e54, #e6b590);
     border-radius: 0.25rem;
@@ -59,3 +63,49 @@ body {
     margin-bottom: 10px;
 
 }
+
+
+/*custom range slider for chromium and firefox*/
+
+input[type='range'] {
+    overflow: hidden;
+    -webkit-appearance: none;
+    background-image: linear-gradient(to top, #c9c2c2 0%, #8d8888);
+    border-radius: 100px;
+    box-shadow: inset #666 1px 1px 3px, 1px 1px 2px white !important;
+
+  }
+
+  /* https://stackoverflow.com/questions/18389224/how-
+  * to-style-html5-range-input-to-have-different-color-before-and-after-slider */
+
+  input[type='range']::-webkit-slider-runnable-track {
+    height: 15px;
+    -webkit-appearance: none;
+    color: #13bba4;
+
+  }
+  
+  input[type='range']::-webkit-slider-thumb {
+    width: 15px;
+    -webkit-appearance: none;
+    height: 15px;
+    cursor: ew-resize;
+    background: linear-gradient(#3939ff, blue);
+    border-radius: 15px;
+    box-shadow: #666 1px 1px 3px, inset 1px 1px 2px rgb(134, 115, 255) !important;
+
+  }
+
+  input[type="range"]::-moz-range-thumb {
+    width: 15px;
+    height: 15px;
+    cursor: ew-resize;
+    background: linear-gradient(#3939ff, blue);
+    border-radius: 15px;
+    box-shadow: #666 1px 1px 3px, inset 1px 1px 2px rgb(134, 115, 255) !important;
+    border:none
+  }
+
+  form :focus:required:invalid {
+    border: inset 1px red;
