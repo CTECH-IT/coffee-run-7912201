@@ -30,6 +30,7 @@
             func(data);
 
             this.reset(); //reset upon submitting
+            document.getElementById("strengthtext").innerHTML = "Strength: 30";
             this.elements[0].focus(); // make the cursor go to the coffee
         });
     }
