@@ -6,6 +6,8 @@
 
 .form-control {
     box-shadow: inset #777 1px 1px 3px,  1px 1px 1px white !important;
+    background-image: linear-gradient(#e1e1e1, #ffffff);
+
 }
 
 .pendingspace {
@@ -109,3 +111,4 @@ input[type='range'] {
 
   form :focus:required:invalid {
     border: inset 1px red;
+  }
